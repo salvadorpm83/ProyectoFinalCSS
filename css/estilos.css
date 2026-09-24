@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #eaf4fb;
+    color: #1c2e45;
+}
+
+.skip-link {
+    position: absolute;
+    top: -60px;
+    left: 0;
+    background-color: #ffffff;
+    color: #1c3d6e;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+header {
+    background-color: #1c3d6e;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 10px;
+}
+
+header h1 {
+    margin: 0 0 15px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #4a86c5;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #a9d4f5;
+    color:#1c3d6e;
+}
+
+main {
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #1c3d6e;
+    border-bottom: 2px solid #a9d4f5;
+    padding-bottom: 5px;
+}
+
+img {
+    max-width: 100%;
+    border: 4px solid #ffffff;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #a9d4f5;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.cuadro {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.galeria img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.galeria img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #4a86c5;
+}
+
+.galeria img:nth-child(1) {
+    border-radius: 30px 0 30px 0;
+}
+
+.galeria img:nth-child(2) {
+    border-radius: 15px;
+}
+
+.galeria img:nth-child(3) {
+    border-radius: 30px 0 30px 0;
+}
+
+.galeria img:nth-child(4) {
+    border-radius: 15px;
+}
+
+.galeria img:nth-child(5) {
+    border-radius: 30px 0 30px 0;
+}
+
+.galeria img:nth-child(6) {
+    border-radius: 15px;
+}
+
+.creditos {
+    font-size: 12px;
+}
+
+footer {
+    background-color: #1c3d6e;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
